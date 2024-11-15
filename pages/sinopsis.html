@@ -6,7 +6,69 @@
     <title>User page</title>
 </head>
 <body>
-    <h2>Sinopsis</h2>
+    <header>
+        <h2>Sinopsis</h2>
+    </header>
+    <hr>
+    <main>
+        <!-- aqui va el formulario -->
+        <h2>Sign up</h2>
+        <form>
+            <div>
+                <label for="fname">First name</label>
+                <br>
+                <input type="text" name="fname" id="fname" placeholder="Johan">
+            </div>
+            <br> <!-- salto de linea -->
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="user@correo.com">
+            </div>
+            <br>
+            <div>
+                <label for="cname">Country name</label>
+                <br>
+                <select name="cname" id="cname">
+                    <option value="mexico">México</option>
+                    <option value="col">Colombia</option>
+                    <option value="arg">Argentina</option>
+                    <option value="per">Perú</option>
+                    <option value="chi">Chile</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <p>Gender</p>
+                <input type="radio" name="gender" id="male" value="Male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            br>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="legalPolicy" id="legalPolicy" value="true">
+                <label for="legalPolicy">Aceptar los términos</label>
+            </div>
+            <div>
+                <input type="checkbox" name="recibircorr" id="recibircorr" value="true">
+                <label for="recibircorr">Recibir correos?</label>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Sign Up">
+                <!-- otra forma de hacerlo <button type="submit">Sign Up</button>-->
+                
+            </div>
+        </form>
+    </main>
+<!-- Pie de pagina -->
+    <footer>
+<h5>Todos los derechos reservados Tienda de manzana</h5>
+    </footer>
     <p>One Piece sigue las aventuras de Monkey D. Luffy, un joven pirata con cuerpo de goma que sueña con encontrar el legendario tesoro "One Piece" y convertirse en el Rey de los Piratas. Junto a su peculiar tripulación, los Sombrero de Paja, exploran mares llenos de peligros, enemigos y misterios, mientras enfrentan la Marina y luchan por cumplir sus sueños bajo una bandera de amistad y libertad.</p>
     <img src="../images/450_1000.jpeg" alt="" width="500px">
     <br>
